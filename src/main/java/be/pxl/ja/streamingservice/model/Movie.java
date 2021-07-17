@@ -45,6 +45,10 @@ public class Movie extends Content implements Playable {
         this.genre = genre;
     }
 
+    public String getPlayingTime() {
+        return "";
+    }
+
     @Override
     public void play() {
         System.out.println("Playing " + this);
